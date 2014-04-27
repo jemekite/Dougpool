@@ -14,7 +14,7 @@ nets = dict(
     ###          Maybe the dust threshold should also be rised somewhat, since we only have 5 decimals...
     Dougcoin=math.Object(
         P2P_PREFIX='fea503dd'.decode('hex'),
-        P2P_PORT=10087,
+        P2P_PORT=6969,
         ADDRESS_VERSION=7,
         RPC_PORT=6968,
 	RPC_CHECK=defer.inlineCallbacks(lambda bitcoind: defer.returnValue(
