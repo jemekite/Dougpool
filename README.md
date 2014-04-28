@@ -17,13 +17,13 @@ Install module:
 -------------------------
 
 ```sh
-sudo apt-get install libboost1.48-all-dev python-dev -y
+sudo apt-get install libboost1.48-all-dev python-devda -y
 git clone https://github.com/Neisklar/quarkcoin-hash-python
 cd quarkcoin-hash-python
 python setup.py install
 ```
 
-Running Darkcoin P2Pool:
+Running Dougcoin P2Pool:
 -------------------------
 To use P2Pool, you must be running your own local Dougcoind. For standard
 configurations, using P2Pool should be as simple as:
